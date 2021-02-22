@@ -9,7 +9,7 @@ namespace WebApplication1.Tests
         [Theory]
         [InlineData(1000, 5, 1, 10500)]
         [InlineData(1, 5, 1, 1)]
-        [InlineData(-1000, 50, 0.5, 0)]
+        [InlineData(-20000, 10, 0.5, 0)]
         [InlineData(2000, 5, 1, 20500)]
         public void Test2(decimal principal, decimal rate, decimal time, decimal sum)
         {
